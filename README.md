@@ -6,25 +6,24 @@ Java Development Kit (JDK): Ensure you have a compatible JDK installed.
 Maven or Gradle: A build automation tool for managing dependencies and building the project.
 Database: A relational database like MySQL, PostgreSQL, or H2 (for testing).
 Setup
+
 Clone the Repository:
 Bash
 git clone https://github.com/your-username/hospital-appointment-backend.git
-Use code with caution.
 
 Database Configuration:
 Create a database with the specified name and credentials in your database management system.
 Update the database connection details in the application.properties file.
+
 Build the Project:
 Use Maven or Gradle to build the project. For example, with Maven:
 Bash
 mvn clean install
-Use code with caution.
 
 Run the Application:
 Start the Spring Boot application using Maven or Gradle. For example, with Maven:
 Bash
 mvn spring-boot:run
-Use code with caution.
 
 API Endpoints
 
@@ -85,7 +84,6 @@ public class AppointmentControllerTest {
 
     }
 }
-Use code with caution.
 
 Integration Tests
 Spring Boot Test: Leverage Spring Boot Test to test the interaction between multiple components.
@@ -117,7 +115,6 @@ public class AppointmentControllerIntegrationTest {
         assertThat(response.getBody().size()).isEqualTo(1);
     }
 }
-Use code with caution.
 
 Exception Handling
 @ControllerAdvice: Use @ControllerAdvice to create a global exception handler to handle common exceptions.
