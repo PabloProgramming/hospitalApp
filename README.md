@@ -134,6 +134,7 @@ public class GlobalExceptionHandler {
 }
 
 Additional Notes
-Error Handling: The API should handle errors gracefully and return appropriate error responses.
+Error Handling: 
+The API should handle errors gracefully and return appropriate error responses.
 Security: Implement security measures to protect sensitive data, such as using authentication and authorization mechanisms.
 Scalability: Consider scalability factors for handling increased load, such as using caching or distributed systems.
